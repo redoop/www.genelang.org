@@ -1,1 +1,1 @@
-# docs.community.redoop.com
+# http://docs.community.redoop.com
