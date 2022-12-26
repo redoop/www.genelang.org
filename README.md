@@ -1,1 +1,0 @@
-# http://docs.community.redoop.com
