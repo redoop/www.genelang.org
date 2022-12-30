@@ -4,42 +4,39 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '兼容上游',
+    imgSrc: 'img/draw_upstream_compatible.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        完全兼容Apache Ambari, 不对其进行二次开发, 用户可无障碍互相切换
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '方便部署',
+    imgSrc: 'img/draw_easy_deploy.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        提供了生成好的RPM包及镜像站, 用户只需下载安装即可使用, 无需从源码进行打包
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '多云支持',
+    imgSrc: 'img/draw_multi_cloud_support.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        支持一键将Apache Ambari部署在云上, 用户搭建环境及使用更加方便
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({imgSrc, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureImg} src={imgSrc} alt={title}/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
