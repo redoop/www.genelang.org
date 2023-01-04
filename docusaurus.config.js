@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/redoop/community.redoop.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'quickstart',
+            docId: 'intro',
             position: 'left',
             label: '文档',
           },
@@ -85,6 +85,13 @@ const config = {
           },
         ],
       },
+      announcementBar: {
+        id: 'redoop_community_is_coming',
+        content: 'Redoop Community 正式上线了，欢迎大家试用！',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       footer: {
         style: 'dark',
         links: [
@@ -93,7 +100,7 @@ const config = {
             items: [
               {
                 label: '快速开始',
-                to: '/docs/quickstart',
+                to: '/docs/intro',
               },
             ],
           },
@@ -123,7 +130,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/redoop/community.redoop.com',
+                href: 'https://github.com/redoop',
               },
             ],
           },
