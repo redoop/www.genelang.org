@@ -1,0 +1,42 @@
+---
+slug: redoop-community-is-coming
+title: 快报！红象社区版正式上线，致力于让大数据更简单
+authors: [redoop]
+tags: [Redoop Community]
+---
+
+新年伊始，万象更新，红象云腾也在2023年上线了社区网站，旨在简化Apache Ambari的安装及使用门槛，并降低用户在其上的运维成本。
+
+社区官网访问地址：https://community.redoop.com/
+
+## 产品简介
+
+Redoop Community 是一款完全基于 Apache Ambari 的产品，旨在为用户提供更加方便和高效的大数据集群管理方案。
+
+作为 Apache Ambari 的补充和扩展，Redoop Community 主要为大家提供 Apache 社区未发版的较稳定 Snapshot 版本，以及已发版的 Release 版本的 RPM 包的镜像站。我们不对 Apache Ambari 进行任何代码改动，用户可随时迁移回 Apache 版本。
+
+Redoop Community 主要有下列几个优势：兼容上游、方便部署以及多云支持。
+
+## 兼容上游
+
+Redoop Community 不对Apache Ambari 的源代码进行任何修改，保证了与 Apache Ambari 的代码完全兼容。用户可以随时将 Redoop Community 迁移回 Apache Ambari。并且我们保留了 Apache Ambari 的其他兼容性特点，例如对不同的操作系统的支持、对不同的硬件平台的支持、对不同的软件生态系统的支持等。这些兼容性特点使得 Redoop Community 可以在更广泛的环境中使用，为用户带来更大的便利。
+
+我们也会定期发布新版本，并在新版本中新增 Apache Ambari 的最新版本的支持，同时也保留对旧版本的支持。这样，用户就可以在 Redoop Community 中轻松地进行版本升级。
+
+## 方便部署
+
+Redoop Community 团队会统一编译并提供 Ambari 及 BIGTOP Stack 的 RPM 包，保证版本的一致性。用户可以在 Redoop Community 的镜像站上下载这些 RPM 包，然后直接使用 yum 进行安装。这样就可以省去自己从源码编译的步骤，并直接使用这些 RPM 包快速搭建自己的大数据集群，简化部署流程。
+
+我们也将在未来支持一键部署到云平台的功能，用户可以几分钟内在云平台上搭建自己的大数据集群，只需提供云平台的账号信和一些基本的配置参数即可，Redoop Community 就可以自动完成部署流程，该方式极大地简化了部署复杂度，使用户可以快速体验 Apache Ambari。
+
+## 多云支持
+
+最后我们再来看看 Redoop Community 即将到来的多云支持：
+
+我们会支持包括在 AWS、Azure、GCP、Alibaba Cloud、QingCloud、Ucloud 等一个或多个云平台上使用，并且能够互相迁移，这样就可以根据自己的需要随时调整集群的部署位置，而更好地利用云平台的资源，获得更大的灵活性与可扩展性。
+
+并且用户可以根据实际的负载情况，通过 Redoop Community 自动调整虚拟机的个数，来动态扩/缩容集群，从而达到节省成本的目的。此外，Redoop Community 还可以根据用户的应用场景，提供合适的资源配置方案，帮助用户更好地利用资源。
+
+## 关于红象云腾
+
+红象云腾成立于2013年，是一家专注于Apache Hadoop生态的大数据软件厂商，主要产品是红象云腾大数据基础平台(Redoop Enterprise V9.0)，产品代号 CRH（寓意“数据动车”），表示分布式动力，处理规模大，速度快。产品由CRF数据接入、CRH数据存储、CRS数据分析三大部分构成，为企业提供开放统一的大数据存储和处理环境。产品兼容支持Hadoop生态圈中主要工具，提供PB级海量数据存储、查询、分析和挖掘能力。目前，已经在航天、石油、铁路、电力、金融及通信等基础设施的大数据场景部署上线运行，为用户提供高速高效，坚若磐石的大数据平台支撑服务。
