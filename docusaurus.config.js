@@ -106,16 +106,12 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '博客',
+                to: '/blog',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/redoop',
               },
             ],
           },
@@ -123,12 +119,8 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '博客',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/redoop',
+                label: 'Apache Ambari',
+                to: 'https://ambari.apache.org',
               },
             ],
           },
