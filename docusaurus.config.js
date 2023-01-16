@@ -103,7 +103,7 @@ const config = {
             ],
           },
           {
-            title: '社区',
+            title: '资料',
             items: [
               {
                 label: '博客',
@@ -120,7 +120,7 @@ const config = {
             items: [
               {
                 label: 'Apache Ambari',
-                to: 'https://ambari.apache.org',
+                href: 'https://ambari.apache.org',
               },
             ],
           },
