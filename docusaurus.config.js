@@ -55,12 +55,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Redoop Community',
+        title: 'Redoop ',
         logo: {
-          alt: 'Redoop Community',
+          alt: 'Redoop ',
           src: 'img/logo.svg',
         },
         items: [
+          {
+            href: 'https://cloud.redoop.com',
+            label: 'Cloud',
+            position: 'right',
+          },
           {
             type: 'doc',
             docId: 'intro',
