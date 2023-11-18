@@ -77,6 +77,11 @@ const config = {
             label: '博客', 
             position: 'left'
           },
+          {
+            href: 'https://www1.redoop.com/customer-case.html',
+            label: '案例',
+            position: 'left',
+          },
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
