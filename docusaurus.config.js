@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Redoop Cloud(云)',
-  tagline: '简化大数据和AI软件在云上的的安装，配置，监控，使用门槛, 并降低用户在上云的使用成本，提高交付效率',
+  title: 'Redoop Cloud',
+  tagline: '简化软件上云门槛, 提高整体交付效率',
   url: 'https://cloud.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -55,9 +55,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Redoop ',
+        title: 'Redoop Cloud',
         logo: {
-          alt: 'Redoop ',
+          alt: 'Redoop Cloud',
           src: 'img/logo.svg',
         },
         items: [
