@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Redoop Community(社区版)',
-  tagline: '简化Apache Ambari的安装及使用门槛, 并降低用户在其上的运维成本',
-  url: 'https://community.redoop.com',
+  title: 'Redoop Cloud(云)',
+  tagline: '简化大数据和AI软件在云上的的安装，配置，监控，使用门槛, 并降低用户在上云的使用成本，提高交付效率',
+  url: 'https://cloud.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'redoop', // Usually your GitHub org/user name.
-  projectName: 'community.redoop.com', // Usually your repo name.
+  projectName: 'www.redoop.com', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -62,7 +62,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://cloud.redoop.com',
+            href: 'http://cloud.redoop.com',
             label: 'Cloud',
             position: 'right',
           },
@@ -90,7 +90,7 @@ const config = {
       },
       announcementBar: {
         id: 'redoop_community_is_coming',
-        content: 'Redoop Community 正式上线了，欢迎大家试用！',
+        content: 'Redoop Cloud 正式上线了，欢迎大家试用！',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
