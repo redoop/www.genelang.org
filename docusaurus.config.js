@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Redoop Cloud',
   tagline: '简化软件上云门槛, 提高整体交付效率',
-  url: 'https://cloud.redoop.com',
+  url: 'http://cloud.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
