@@ -79,7 +79,7 @@ const config = {
           },
           {
             href: 'https://www1.redoop.com/customer-case.html',
-            label: '案例',
+            label: '成功案例',
             position: 'left',
           },
           // {
