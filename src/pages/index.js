@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="http://cloud.redoop.com">
-            快速开始
+            to="docs/intro">
+            免费下载
           </Link>
         </div>
       </div>
