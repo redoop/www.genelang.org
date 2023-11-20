@@ -8,7 +8,7 @@ const FeatureList = [
     imgSrc: 'img/draw_upstream_compatible.png',
     description: (
       <>
-        完全兼容Apache Ambari, 不对其进行二次开发, 用户可无障碍互相切换
+        完全兼容Apache Ambari, 二次开发代码捐献给 Apache 社区, 用户可无障碍互相切换
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     imgSrc: 'img/draw_easy_deploy.png',
     description: (
       <>
-        提供了生成好的RPM包及镜像站, 用户只需下载安装即可使用, 无需从源码进行打包
+        提供了生成好的Apache Bigtop RPM 安装包及镜像站, 用户只需下载安装即可使用, 无需从源码进行打包
       </>
     ),
   },
