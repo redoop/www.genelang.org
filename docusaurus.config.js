@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Redoop Cloud',
-  tagline: '简化软件上云门槛, 提高整体交付效率',
-  url: 'http://cloud.redoop.com',
+  title: 'Redoop Community',
+  tagline: 'Apache Ambari + Apache Bigtop 的完美组合，加速Hadoop生态发展！',
+  url: 'http://wwww.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,32 +55,27 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Redoop Cloud',
+        title: 'Redoop Community',
         logo: {
-          alt: 'Redoop Cloud',
+          alt: 'Redoop Community',
           src: 'img/logo.svg',
         },
         items: [
           {
             href: 'http://cloud.redoop.com',
-            label: 'Cloud',
+            label: 'Cloud一键试用',
             position: 'right',
           },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '文档',
+            label: '安装文档',
           },
           {
             to: '/blog', 
             label: '博客', 
             position: 'left'
-          },
-          {
-            href: 'https://www1.redoop.com/customer-case.html',
-            label: '成功案例',
-            position: 'left',
           },
           // {
           //   type: 'localeDropdown',
@@ -95,7 +90,7 @@ const config = {
       },
       announcementBar: {
         id: 'redoop_community_is_coming',
-        content: 'Redoop Cloud 正式上线了，欢迎大家试用！',
+        content: 'Redoop Community 正式上线了，欢迎大家试用！',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
