@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Redoop Community',
-  tagline: 'Apache Ambari + Apache Bigtop, making the big data platform faster!',
+  tagline: 'making the big data platform easy and faster!',
   url: 'http://wwww.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
