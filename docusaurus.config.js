@@ -62,11 +62,6 @@ const config = {
         },
         items: [
           {
-            href: 'http://cloud.redoop.com',
-            label: 'Cloud一键试用',
-            position: 'right',
-          },
-          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
