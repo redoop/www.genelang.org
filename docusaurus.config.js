@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Redoop Community',
-  tagline: 'Apache Ambari + Apache Bigtop 的完美组合，加速Hadoop生态发展！',
+  tagline: 'Apache Ambari + Apache Bigtop, making the big data platforms faster!',
   url: 'http://wwww.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -65,11 +65,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '安装文档',
+            label: 'Documentation',
           },
           {
             to: '/blog', 
-            label: '博客', 
+            label: 'Blog', 
             position: 'left'
           },
           // {
@@ -91,7 +91,7 @@ const config = {
       },
       announcementBar: {
         id: 'redoop_community_is_coming',
-        content: 'Redoop Community 正式上线了，欢迎大家试用！',
+        content: 'The Redoop Community is online! Have fun!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
@@ -100,19 +100,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '文档',
+            title: 'Documentation',
             items: [
               {
-                label: '快速开始',
+                label: 'Quick Start',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: '资料',
+            title: 'News',
             items: [
               {
-                label: '博客',
+                label: 'Blog',
                 to: '/blog',
               },
               {
@@ -122,7 +122,7 @@ const config = {
             ],
           },
           {
-            title: '更多',
+            title: 'more',
             items: [
               {
                 label: 'Apache Ambari',
