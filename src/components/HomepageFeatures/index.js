@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '兼容上游',
+    title: 'Upstream Compatibility',
     imgSrc: 'img/draw_upstream_compatible.png',
     description: (
       <>
-        完全兼容Apache Ambari, 二次开发代码捐献给 Apache 社区, 用户可无障碍互相切换
+        Fully compatible with Apache Ambari + Bigtop, with secondary development code contributed to the Apache community. Users can seamlessly switch between them.
       </>
     ),
   },
   {
-    title: '方便部署',
+    title: 'Easy Deployment',
     imgSrc: 'img/draw_easy_deploy.png',
     description: (
       <>
-        提供了生成好的Apache Bigtop RPM 安装包及镜像站, 用户只需下载安装即可使用, 无需从源码进行打包
+        Provides pre-built Apache Bigtop RPM installation packages and mirror sites, allowing users to simply download and install without the need for source code compilation.
       </>
     ),
   },
   {
-    title: '多云支持',
+    title: 'Multi-Cloud Support',
     imgSrc: 'img/draw_multi_cloud_support.png',
     description: (
       <>
-        支持一键将Apache Ambari部署在云上, 用户搭建环境及使用更加方便
+        Supports one-click deployment of Apache Ambari on the cloud, making it more convenient for users to set up environments and use.
       </>
     ),
   },

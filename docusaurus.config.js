@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Redoop Community',
-  tagline: 'Apache Ambari + Apache Bigtop, making the big data platforms faster!',
+  tagline: 'Apache Ambari + Apache Bigtop, making the big data platform faster!',
   url: 'http://wwww.redoop.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -91,7 +91,7 @@ const config = {
       },
       announcementBar: {
         id: 'redoop_community_is_coming',
-        content: 'The Redoop Community is online! Have fun!',
+        content: 'The Redoop Community is online!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
@@ -127,7 +127,10 @@ const config = {
               {
                 label: 'Apache Ambari',
                 href: 'https://ambari.apache.org',
-              },
+              },{
+                label: 'Apache BigTop',
+                href: 'https://bigtop.apache.org',
+              }
             ],
           },
         ],

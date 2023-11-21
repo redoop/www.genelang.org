@@ -33,10 +33,10 @@ export default function FooterLinksMultiColumn({columns}) {
         <Column key={i} column={column} />
       ))}
       <div>
-        <div className="footer__title" style={{textAlign: "center"}}>社群</div>
+        <div className="footer__title" style={{textAlign: "center"}}>wechat group</div>
         <ul className="footer__items clean-list">
           <img src="./img/qrcode-logo.png" height="100" width="100" />
-          <p style={{textAlign: "center", fontSize: "10px", marginTop: "5px"}}>扫码加入微信群</p>
+          <p style={{textAlign: "center", fontSize: "10px", marginTop: "5px"}}>Scan the code to join.</p>
         </ul>
       </div>
       
