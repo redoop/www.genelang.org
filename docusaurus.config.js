@@ -76,11 +76,17 @@ const config = {
           //   type: 'localeDropdown',
           //   position: 'right',
           // },
+          
+          {
+            href: 'https://enterprise.redoop.com',
+            label: 'Redoop Enterprise',
+            position: 'right',
+          },
           {
             href: 'https://github.com/redoop',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       announcementBar: {
