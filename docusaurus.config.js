@@ -76,7 +76,12 @@ const config = {
           //   type: 'localeDropdown',
           //   position: 'right',
           // },
-          
+
+          {
+            href: 'https://www1.redoop.com',
+            label: 'Redoop Website',
+            position: 'right',
+          },
           {
             href: 'https://enterprise.redoop.com',
             label: 'Redoop Enterprise',
