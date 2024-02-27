@@ -42,7 +42,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://www.redoop.org/docs/install-guide/%E8%BD%AF%E4%BB%B6%E5%8C%85%E4%B8%8B%E8%BD%BD',
+          editUrl: 'https://www.redoop.org/docs/install-guide/download',
         },
         blog: {
           showReadingTime: true,
