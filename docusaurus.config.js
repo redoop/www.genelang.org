@@ -38,12 +38,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/redoop/community.redoop.com/tree/main/',
         },
-        download: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://www.redoop.org/docs/install-guide/download',
-        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -74,7 +68,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://www.redoop.org/docs/install-guide/download/',
+            href: 'https://www.redoop.org/docs/install-guide/download',
             label: 'download',
             position: 'right',
           },
