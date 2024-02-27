@@ -74,6 +74,11 @@ const config = {
             label: 'Documentation',
           },
           {
+            href: 'https://www.redoop.org/docs/install-guide/download/',
+            label: 'download',
+            position: 'right',
+          },
+          {
             to: '/blog', 
             label: 'Blog', 
             position: 'left'
@@ -82,17 +87,6 @@ const config = {
           //   type: 'localeDropdown',
           //   position: 'right',
           // },
-
-          {
-            href: 'https://www1.redoop.com',
-            label: 'Redoop Website',
-            position: 'right',
-          },
-          {
-            href: 'https://enterprise.redoop.com',
-            label: 'Redoop Enterprise',
-            position: 'right',
-          },
           {
             href: 'https://github.com/redoop',
             label: 'GitHub',
