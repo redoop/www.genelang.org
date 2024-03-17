@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Redoop Community',
-  tagline: 'making the big data platform easy and faster!',
-  url: 'http://wwww.redoop.com',
+  title: 'Genelang Community',
+  tagline: 'Community for innovative biotechnology!',
+  url: 'http://wwww.genelang.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'redoop', // Usually your GitHub org/user name.
-  projectName: 'www.redoop.com', // Usually your repo name.
+  organizationName: 'genelang', // Usually your GitHub org/user name.
+  projectName: 'www.genelang.org', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -55,9 +55,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Redoop Community',
+        title: 'Genelang Community',
         logo: {
-          alt: 'Redoop Community',
+          alt: 'Genelang Community',
           src: 'img/logo.svg',
         },
         items: [
@@ -89,8 +89,8 @@ const config = {
         ],
       },
       announcementBar: {
-        id: 'redoop_community_is_coming',
-        content: 'The Redoop Community is online!',
+        id: 'genelang_community_is_coming',
+        content: 'The Genelang Community is online!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
