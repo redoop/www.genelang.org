@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Genelang Community',
-  tagline: 'Community for innovative biotechnology!',
+  tagline: 'Genelang is a OpenSource Community for innovative biotechnology!',
   url: 'http://wwww.genelang.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
